@@ -23,7 +23,7 @@ FORCE_SUB_CHANNEL_IDS = {
     "channel3": "rezero_english_dubb",
     "channel4": "RascalDoesNotDreamofBunnyGirl_1",
     "channel5": "bluelockdubenglishdubbed",
-#    "channel6": "MeijiGekken1874dub",
+    "channel6": "animedualaudiozippercartoonist",
 }
 # Add a handler for the /start command
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
