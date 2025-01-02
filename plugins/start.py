@@ -19,10 +19,10 @@ from database.database import add_user, del_user, full_userbase, present_user
 # Define the channel IDs
 FORCE_SUB_CHANNEL_IDS = {
     "channel": "animecolony_1",
-    "channel2": "arifureta_english_dubbed_1",
+    "channel2": "sololeveling_english_dubbed",
     "channel3": "rezero_english_dubb",
-    "channel4": "RascalDoesNotDreamofBunnyGirl_1",
-    "channel5": "bluelockdubenglishdubbed",
+    "channel4": "myhappymarriagex",
+    "channel5": "the100Girlfriendswhoreallyloveyd",
     "channel6": "animedualaudiozippercartoonist",
 }
 # Add a handler for the /start command
@@ -36,7 +36,7 @@ async def start_command(client: Client, message: Message):
                 return
         except UserNotParticipant:
             await message.reply_text(
-                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels Join these channels and Support our Anime Channel and our Anime service 😀 thanks and Enjoy Watching Anime \n @rezero_english_dubb \n @RascalDoesNotDreamofBunnyGirl_1 \n @arifureta_english_dubbed_1 \n @lonerlifeinanotherworld_dub \n @Ranma1_2EnglishDubbed \n @bluelockdubenglishdubbed \n @animecolony_1 \n ",
+                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels Join these channels and Support our Anime Channel and our Anime service 😀 thanks and Enjoy Watching Anime \n @sololeveling_english_dubbed \n @RascalDoesNotDreamofBunnyGirl_1 \n @arifureta_english_dubbed_1 \n @myhappymarriagex \n @the100Girlfriendswhoreallyloveyd \n @bluelockdubenglishdubbed \n @animecolony_1 \n ",
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton("Update Channel", url=f"t.me/{sub_channel_id}")
