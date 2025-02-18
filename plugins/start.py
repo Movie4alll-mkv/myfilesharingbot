@@ -19,8 +19,8 @@ from database.database import add_user, del_user, full_userbase, present_user
 # Define the channel IDs
 FORCE_SUB_CHANNEL_IDS = {
     "channel": "animecolony_1",
-    "channel9": "Sakamoto_days_englishdubbed",
-    "channel2": "sololeveling_english_dubbed",
+  #  "channel9": "Sakamoto_days_englishdubbed",
+# "channel2": "sololeveling_english_dubbed",
     "channel3": "rezero_english_dubb",
     "channel4": "myhappymarriagex",
     "channel5": "the100Girlfriendswhoreallyloveyd",
