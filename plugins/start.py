@@ -1,6 +1,4 @@
-#(©)CodeXBotz
-
-#(©)CodeXBotz
+#(©)CodeXBotz and 
 
 
 import os
@@ -18,13 +16,12 @@ from helper_func import subscribed, encode, decode, get_messages
 from database.database import add_user, del_user, full_userbase, present_user
 # Define the channel IDs
 FORCE_SUB_CHANNEL_IDS = {
-    "channel": "onepiece480pdub",
-    "channel9": "cryptoontelegramminiapps",
-    "channel2": "anidbslowmb",
-    "channel3": "rezero_english_dubb",
-    "channel4": "myhappymarriagex",
-    "channel5": "the100Girlfriendswhoreallyloveyd",
-    "channel6": "animedualaudiozippercartoonist",
+    "channel": "Animedualaudiozippercartoonist",
+    "channel2": "onepiece480pdubl",
+    "channel3": "cryptoontelegramminiapps",
+    "channel4": "anidbslowmb",
+    "channel5": "rezero_english_dubb",
+    "channel6": "myhappymarriagex",
 }
 # Add a handler for the /start command
 @Bot.on_message(filters.command('start') & filters.private & subscribed)
@@ -37,7 +34,7 @@ async def start_command(client: Client, message: Message):
                 return
         except UserNotParticipant:
             await message.reply_text(
-                text="Thanks for Joining ☺️ \n @anidbslowmb \n @cryptoontelegramminiapps \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels Join these channels and Support our Anime Channel and our Anime service 😀 thanks and Enjoy Watching Anime   \n @arifureta_english_dubbed_1 \n @myhappymarriagex \n @the100Girlfriendswhoreallyloveyd \n @bluelockdubenglishdubbed \n @onepiece480pdub \n ",
+                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels \n @truebeautyenglishdubbed \n @spiritchronicles_1 \n @dandadan_english_dubbed_1 \n @oshinokodubseries \n @Animedualaudiozippercartoonist ",
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton("Update Channel", url=f"t.me/{sub_channel_id}")
