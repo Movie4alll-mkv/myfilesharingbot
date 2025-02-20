@@ -17,7 +17,7 @@ from database.database import add_user, del_user, full_userbase, present_user
 # Define the channel IDs
 FORCE_SUB_CHANNEL_IDS = {
     "channel": "the100Girlfriendswhoreallyloveyd",
-    "channel2": "onepiece480pdubl",
+    "channel2": "onepiece480pdub",
     "channel3": "cryptoontelegramminiapps",
     "channel4": "anidbslowmb",
     "channel5": "rezero_english_dubb",
