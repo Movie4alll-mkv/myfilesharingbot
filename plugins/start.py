@@ -34,7 +34,7 @@ async def start_command(client: Client, message: Message):
                 return
         except UserNotParticipant:
             await message.reply_text(
-                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist but You are not Subscribed to these Channels \n @anidbslowmb \n @rezero_english_dubb \n @myhappymarriagex \n @the100Girlfriendswhoreallyloveyd \n @onepiece480pdub \n @cryptoontelegramminiapps ",
+                text="Thanks for Joining ☺️ \n @animedualaudiozippercartoonist & @anidbs but You are not Subscribed to these Channels \n @anidbslowmb \n @rezero_english_dubb \n @myhappymarriagex \n @the100Girlfriendswhoreallyloveyd \n @onepiece480pdub \n @cryptoontelegramminiapps ",
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton("Update Channel", url=f"t.me/{sub_channel_id}")
