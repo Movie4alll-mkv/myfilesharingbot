@@ -1,5 +1,6 @@
 # --- For-Bot-Working --------- #
 pyrofork
+pyromod==1.5
 TgCrypto
 # --- For-Database ------------ #
 pymongo
